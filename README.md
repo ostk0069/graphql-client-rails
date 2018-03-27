@@ -1,4 +1,4 @@
-# graphql-client
+# graphql-client-rails
 
 GraphQL Client is a Ruby library for declaring, composing and executing GraphQL queries.
 
@@ -139,10 +139,10 @@ These `<%graphql` sections are simply ignored at runtime but make their definiti
 
 ## Installation
 
-Add `graphql-client` to your app's Gemfile:
+Add `graphql-client-rails` to your app's Gemfile:
 
 ``` ruby
-gem 'graphql-client'
+gem 'graphql-client-rails'
 ```
 
 ## See Also
