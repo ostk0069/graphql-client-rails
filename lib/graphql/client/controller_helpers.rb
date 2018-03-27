@@ -40,7 +40,8 @@ module GraphQL
       # Private: Useful helper method for tracking GraphQL context data to pass
       # along to the network adapter.
       def graphql_context
-+      end
+        { }
+      end
     end
   end
 end

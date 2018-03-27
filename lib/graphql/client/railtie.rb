@@ -35,6 +35,7 @@ module GraphQL
         ActiveSupport.on_load(:action_controller) do
           include GraphQL::Client::ControllerHelpers
         end
+      end
 
       initializer "graphql.configure_views_namespace" do |app|
         require "graphql/client/view_module"
