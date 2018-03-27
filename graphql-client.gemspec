@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 Gem::Specification.new do |s|
-  s.name = "graphql-client"
+  s.name = "graphql-client-rails"
   s.version = "0.12.2"
   s.summary = "GraphQL Client"
   s.description = "A Ruby library for declaring, composing and executing GraphQL queries"
